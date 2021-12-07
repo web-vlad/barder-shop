@@ -5533,6 +5533,18 @@ h2 {
 .ourServices_section__block:hover .ourServices_section__block_image a:before {
     opacity: 0
 }
+@media (max-width: 500px) {
+    .ourServices_section__blocks {
+        margin: 0 -5px;
+    }
+    .ourServices_section__blocks .ourServices_section__block_wrapper {
+        padding: 0 5px;
+        margin-bottom: 10px;
+    }
+    .ourServices_section__blocks .ourServices_section__block {
+        margin: 0;
+    }
+}
 
 .icon {
     background-size: contain;
@@ -5750,6 +5762,15 @@ h2 {
 
     to {
         opacity: 1
+    }
+}
+@media (max-width: 500px) {
+    .ourWorks_section__blocks {
+        margin: 0 -5px;
+    }
+    .ourWorks_section__blocks .ourWorks_section__block {
+        padding: 0 5px;
+        margin-bottom: 10px;
     }
 }
 
@@ -6051,7 +6072,11 @@ h2 {
     font-size: 26px;
     margin-right: 35px
 }
-
+@media (min-width:1001px) {
+    .header_buttons__button {
+        margin-right: 140px;
+    }
+}
 @media (max-width:767px) {
     .header_buttons__button {
         margin-right: 10px
@@ -6131,7 +6156,7 @@ h2 {
 }
 
 .section_header__menus_top {
-    margin-bottom: 35px
+    margin-bottom: 21px
 }
 
 @media (max-width:1000px) {
@@ -6150,6 +6175,7 @@ h2 {
         -webkit-box-pack: end;
         -ms-flex-pack: end;
         justify-content: flex-end;
+        margin-bottom: 0;
     }
 }
 
